@@ -30,3 +30,8 @@
 //make an onclick so button will work on signup.js
 //create a function for onclick handle googlelogin in signup.js
 //in signup.js move up const auth = getAuth(app) so we can reuse it
+
+
+//NOTES FOR JON HTML
+//add useEffect in app.js in import usestate
+//add useEffect in component function APP in app.js
