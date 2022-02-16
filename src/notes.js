@@ -25,3 +25,8 @@
 //add it in app.js in route path for signup add setuser=setuser
 //add useNavigate next to Link in signup.js and add it as a component const navigate=useNavigate() in signup.js
 //add navigate('/') to the .then in signup
+//add googleauthprovider in sign up.js +const provider =new google...()
+//create a button called sign in w google on signup.js
+//make an onclick so button will work on signup.js
+//create a function for onclick handle googlelogin in signup.js
+//in signup.js move up const auth = getAuth(app) so we can reuse it
