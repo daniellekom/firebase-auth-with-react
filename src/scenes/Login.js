@@ -3,6 +3,11 @@ import { Link,useNavigate } from 'react-router-dom';
 import {getAuth, signInWithEmailAndPassword, GoogleAuthProvider, signInWithPopup} from 'firebase/auth'
 import {app} from '../ConnectAuth'
 
+import {Button} from 'react-bootstrap/Button';
+//cardGroup above and carousel etc from bootstrap react
+
+
+
 export default function Login({setUser,user}){
     const[email,setEmail]= useState("");
     const[password,setPassword]= useState("");
@@ -73,7 +78,9 @@ export default function Login({setUser,user}){
     color:"white",
     border:"none"}}>
     Sign in with Google</button>
+    {/* <Button>test</Button> */}
     <p>Not a user?< Link to ="/signup">Sign up</Link></p>
     </>
     )
 }
+

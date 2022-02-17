@@ -16,8 +16,8 @@
 //add onsubmit={handleFormSubmit} on form element so form will work and not just reload
 //create a firebase authentication and create file connectauth.js and paste in code from firebase
 //type export in connectauth.js on the bottom
-//import {app} from ../connectAuth in signup.js then in login
-//import {getAuth, createUser..} to signup.js
+//import {app} from ../connectAuth in signup.js then in login.js
+//import {getAuth, createUser..} to signup.js and login.js
 //under handleformsubmit in signup.js remove alert and replace w  type const auth =getAuth(app);
 //under that createuserwemailandpassword(auth,email,password)
 //.then(result =>{set user and navigate to home}) .catch(alert)
@@ -35,3 +35,7 @@
 //NOTES FOR JON HTML
 //add useEffect in app.js in import usestate
 //add useEffect in component function APP in app.js
+//USE REACT BOOTSTRAP TO GET CARDS,CAROUSEL etc
+
+//README.md right click preview and delete everything in read me and keep
+//new info plugged in w jon from the new preview
